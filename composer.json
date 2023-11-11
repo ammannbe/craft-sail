@@ -1,16 +1,20 @@
 {
-    "name": "laravel/sail",
-    "description": "Docker files for running a basic Laravel application.",
-    "keywords": ["laravel", "docker"],
+    "name": "suhype/craft-sail",
+    "description": "Docker files for running a basic Craft application.",
+    "keywords": ["craft", "craftcms", "docker"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/laravel/sail/issues",
-        "source": "https://github.com/laravel/sail"
+        "issues": "https://github.com/ammannbe/craft-sail/issues",
+        "source": "https://github.com/ammannbe/craft-sail"
     },
     "authors": [
         {
             "name": "Taylor Otwell",
             "email": "taylor@laravel.com"
+        },
+        {
+            "name": "Benjamin Ammann",
+            "homepage": "https://github.com/ammannbe"
         }
     ],
     "require": {
@@ -25,17 +29,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Laravel\\Sail\\": "src/"
+            "suhype\\sail\\": "src/"
         }
     },
     "extra": {
         "branch-alias": {
             "dev-master": "1.x-dev"
-        },
-        "laravel": {
-            "providers": [
-                "Laravel\\Sail\\SailServiceProvider"
-            ]
         }
     },
     "config": {

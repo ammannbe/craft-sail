@@ -1,6 +1,18 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/sail/compare/v1.26.0...1.x)
+## [Unreleased](https://github.com/laravel/sail/compare/v1.26.3...1.x)
+
+## [v1.26.3](https://github.com/laravel/sail/compare/v1.26.2...v1.26.3) - 2023-12-02
+
+* [1.x] Add PHP 8.3 xdebug by [@Jubeki](https://github.com/Jubeki) in https://github.com/laravel/sail/pull/642
+
+## [v1.26.2](https://github.com/laravel/sail/compare/v1.26.1...v1.26.2) - 2023-11-27
+
+* Add missing PHP 8.3 extensions by [@hebbet](https://github.com/hebbet) in https://github.com/laravel/sail/pull/640
+
+## [v1.26.1](https://github.com/laravel/sail/compare/v1.26.0...v1.26.1) - 2023-11-20
+
+- Update default user by [@taylorotwell](https://github.com/taylorotwell) in https://github.com/laravel/sail/commit/7a82f5aa364dbee3fd9c52fc464cf0bdd11150ed
 
 ## [v1.26.0](https://github.com/laravel/sail/compare/v1.25.0...v1.26.0) - 2023-10-18
 

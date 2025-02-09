@@ -2,11 +2,11 @@
 services:
     craft.test:
         build:
-            context: ./vendor/suhype/sail/runtimes/8.3
+            context: ./vendor/suhype/sail/runtimes/{{PHP_VERSION}}
             dockerfile: Dockerfile
             args:
                 WWWGROUP: '${WWWGROUP}'
-        image: craft-sail-8.3/app
+        image: sail-{{PHP_VERSION}}/app
         extra_hosts:
             - 'host.docker.internal:host-gateway'
         ports:

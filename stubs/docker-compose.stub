@@ -2,7 +2,7 @@
 services:
     craft.test:
         build:
-            context: ./vendor/suhype/sail/runtimes/{{PHP_VERSION}}
+            context: ./vendor/suhype/craft-sail/runtimes/{{PHP_VERSION}}
             dockerfile: Dockerfile
             args:
                 WWWGROUP: '${WWWGROUP}'

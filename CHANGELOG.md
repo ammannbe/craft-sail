@@ -1,6 +1,11 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/sail/compare/v1.41.0...1.x)
+## [Unreleased](https://github.com/laravel/sail/compare/v1.41.0.1...1.x)
+
+## [v1.41.0.1](https://github.com/laravel/sail/compare/v1.41.0...v1.41.0.1) - 2025-02-09
+
+**[laravel/sail:v1.41.0.1](https://github.com/laravel/sail/releases/tag/v1.41.0)**
+ammannbe/craft-sail:1.x ← laravel/sail:1.x
 
 ## [v1.41.0](https://github.com/laravel/sail/compare/v1.40.0...v1.41.0) - 2025-01-24
 
